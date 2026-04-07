@@ -123,19 +123,28 @@
 <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
 <!-- Film Card 1 -->
 <div class="relative group bg-surface-container-high p-4 flex flex-col justify-end min-h-[500px]">
-<div class="absolute inset-0 overflow-hidden">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Blurred motion of a bridal veil flying in the wind, cinematic film grain, dark and moody, high definition video still" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyxwgvpqXGdmhsaubw1h0Q2pXEJdH0KTvSCDkaeSsf0B2uwmGrzwhr2w838PABt3cxov2ilwNdtRPmWIhy7UTL1OqSMWjEXaFKv3VFf2A3dx7pRRxtbJpzhTb0aeoF5P-MX7lrrxfANOUmR13MtwzGjBZW7odtRrarjKe8Toh429sz1VsMi6nv_5kRicQJUoM26l6M7sDQ0usy17SRgC0wgweqBhy_UBSbbIT_ZjKCKYO_1R08KOv9lx6j40tfFngKWfhUtjgVUUVS">
-<div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500"></div>
-</div>
-<div class="relative z-10 p-8 flex justify-between items-end w-full">
-<div>
-<h4 class="font-headline text-3xl text-on-surface">The Maratha Union</h4>
-<p class="text-primary-fixed/80 font-label tracking-widest text-sm mt-2">6 MINUTE FEATURED FILM</p>
-</div>
-<div class="w-16 h-16 rounded-full border border-primary flex items-center justify-center group-hover:bg-primary transition-all duration-500">
-<span class="material-symbols-outlined text-primary group-hover:text-on-primary">play_arrow</span>
-</div>
-</div>
+    <div class="absolute inset-0 overflow-hidden">
+        <iframe 
+            class="w-full h-full object-cover"
+            src="https://www.youtube.com/watch?v=wq5MpMdj4jY?autoplay=0&controls=1&rel=0&modestbranding=1" 
+            title="The Maratha Union" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+        <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all duration-500 pointer-events-none"></div>
+    </div>
+
+    <div class="relative z-10 p-8 flex justify-between items-end w-full pointer-events-none">
+        <div>
+            <h4 class="font-headline text-3xl text-on-surface">The Maratha Union</h4>
+            <p class="text-primary-fixed/80 font-label tracking-widest text-sm mt-2">6 MINUTE FEATURED FILM</p>
+        </div>
+        <div class="w-16 h-16 rounded-full border border-primary flex items-center justify-center group-hover:bg-primary transition-all duration-500">
+            <span class="material-symbols-outlined text-primary group-hover:text-on-primary">play_arrow</span>
+        </div>
+    </div>
 </div>
 <!-- Film Card 2 -->
 <div class="relative group bg-surface-container-high p-4 flex flex-col justify-end min-h-[500px]">
